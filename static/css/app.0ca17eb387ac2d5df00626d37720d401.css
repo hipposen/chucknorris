@@ -8,6 +8,37 @@
 .empty-state .icon[data-v-9c29ee62] {
     font-size: 48px;
 }
+.chuck[data-v-9c29ee62] {
+  text-align: center;
+  margin-top: 100px;
+  padding: 0 15px;
+}
+.chuck__img[data-v-9c29ee62] {
+    height: 70px;
+}
+.chuck__jokes[data-v-9c29ee62] {
+    font-style: italic;
+    font-size: 36px;
+}
+.btn__jokes[data-v-9c29ee62] {
+  margin: 20px;
+  display: inline-block;
+  padding: 13px 20px;
+  outline: none;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #f05724;
+  color: #fff;
+  border-radius: .5em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.btn__jokes--wrapper[data-v-9c29ee62] {
+    text-align: center;
+}
 
 .fade-enter-active[data-v-df2edc28], .fade-leave-active[data-v-df2edc28] {
   -webkit-transition: opacity .5s;

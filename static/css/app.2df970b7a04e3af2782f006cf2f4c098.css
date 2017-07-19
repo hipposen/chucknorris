@@ -40,6 +40,64 @@
     text-align: center;
 }
 
+.share {
+  margin-top: 20px;
+}
+.share span {
+    height: 29px;
+    width: 29px;
+    padding: 11px 6px;
+    border: 3px solid;
+    border-radius: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.share span i {
+      font-size: 32px;
+      width: 30px;
+      vertical-align: middle;
+}
+.share span[data-link="#share-facebook"] {
+      color: #3b5998;
+      border-color: #3b5998;
+}
+.share span[data-link="#share-facebook"]:hover {
+        background-color: #3b5998;
+        color: #fff;
+}
+.share span[data-link="#share-googleplus"] {
+      color: #d03324;
+      border-color: #d03324;
+}
+.share span[data-link="#share-googleplus"]:hover {
+        background-color: #d03324;
+        color: #fff;
+}
+.share span[data-link="#share-linkedin"] {
+      color: #0077B5;
+      border-color: #0077B5;
+}
+.share span[data-link="#share-linkedin"]:hover {
+        background-color: #0077B5;
+        color: #fff;
+}
+.share span[data-link="#share-twitter"] {
+      color: #55acee;
+      border-color: #55acee;
+}
+.share span[data-link="#share-twitter"]:hover {
+        background-color: #55acee;
+        color: #fff;
+}
+.share span[data-action="share/whatsapp/share"] {
+      color: #25D366;
+      border-color: #25D366;
+}
+.share span[data-action="share/whatsapp/share"]:hover {
+        background-color: #25D366;
+        color: #fff;
+}
+
 .fade-enter-active[data-v-df2edc28], .fade-leave-active[data-v-df2edc28] {
   -webkit-transition: opacity .5s;
   transition: opacity .5s;
